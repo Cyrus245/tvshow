@@ -1,0 +1,71 @@
+html,
+body {
+    height: 100%;
+    background-image: url('https://images.pexels.com/photos/7234255/pexels-photo-7234255.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load');
+    background-size: 1300px 800px;
+    backgr
+}
+
+body {
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #f5f5f5;
+
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+
+.form-signin .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: 15px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.heading {
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: 'Pacifico',
+        cursive;
+
+}
+
+.btn {
+
+    margin-top: 10px;
+
+}
+
+.logo {
+
+    background-color: rgb(54, 203, 31);
+    border-radius: 20px;
+}
+
