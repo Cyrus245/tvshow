@@ -26,6 +26,18 @@ body {
     border-width: 0;
 }
 
+.content {
+    /* text-align: center; */
+    margin-top: 35px;
+}
+
+
+form {
+
+    text-align: left;
+    margin-top: 60px;
+}
+
 .heading {
 
 
@@ -34,20 +46,14 @@ body {
         cursive;
 }
 
+html {
+    height: 100%;
+}
+
 .genre {
 
     font-family: 'Edu VIC WA NT Beginner',
         cursive;
-}
-
-form {
-
-    text-align: left;
-    margin-top: 60px;
-}
-
-html {
-    height: 100%;
 }
 
 img {
@@ -60,16 +66,10 @@ img {
 .img-div {
 
     text-align: center;
+    margin-bottom: 20px;
 
 
 }
-
-.content {
-    /* text-align: center; */
-    margin-top: 35px;
-}
-
-
 
 .info {
 
