@@ -1,0 +1,65 @@
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+
+    background-color: #395B64;
+    background-image: -webkit-linear-gradient(65deg, #A683E3 50%, #E4E9FD 50%);
+
+
+}
+
+.button {
+
+    min-height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border-color: transparent;
+    background-color: #ce8333;
+    color: #fff;
+    font-size: 30px;
+    padding-bottom: 6px;
+    border-width: 0;
+}
+
+.heading {
+
+
+    text-align: center;
+    font-family: 'Dancing Script',
+        cursive;
+}
+
+.genre {
+
+    font-family: 'Edu VIC WA NT Beginner',
+        cursive;
+}
+
+form {
+
+    text-align: left;
+    margin-top: 220px;
+}
+
+img {
+
+    border-radius: 15px;
+    height: 500px;
+    width: 400px;
+}
+
+.content {
+    text-align: center;
+    margin-top: 35px;
+}
+
+.info {
+
+
+    margin-top: 50px;
+}

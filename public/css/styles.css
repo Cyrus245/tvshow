@@ -2,8 +2,9 @@ html,
 body {
     height: 100%;
     background-image: url('https://images.pexels.com/photos/7234255/pexels-photo-7234255.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load');
-    background-size: 1300px 800px;
-    backgr
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 body {
@@ -68,4 +69,3 @@ body {
     background-color: rgb(54, 203, 31);
     border-radius: 20px;
 }
-
