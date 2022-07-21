@@ -1,10 +1,12 @@
 html,
 body {
     height: 100%;
-    background-image: url('https://images.pexels.com/photos/7234255/pexels-photo-7234255.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load');
+    /* background-image: url('https://images.pexels.com/photos/7234255/pexels-photo-7234255.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load'); */
+    background-image: url('https://images.pexels.com/photos/7234381/pexels-photo-7234381.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+
 }
 
 body {
