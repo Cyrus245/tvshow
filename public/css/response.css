@@ -54,12 +54,14 @@ img {
 
     border-radius: 15px;
     height: 500px;
-    width: 300px;
+    width: 350px;
 }
 
 .img-div {
 
     text-align: center;
+
+
 }
 
 .content {
@@ -73,7 +75,8 @@ img {
 
 
     margin-top: 50px;
-    margin-left: 40px;
+    margin-left: 10px;
+    margin-bottom: 40px;
 
 
 }
@@ -85,7 +88,7 @@ img {
     font-family: 'Edu VIC WA NT Beginner',
         cursive;
 
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 
 
 }
