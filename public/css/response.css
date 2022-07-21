@@ -43,7 +43,11 @@ body {
 form {
 
     text-align: left;
-    margin-top: 220px;
+    margin-top: 60px;
+}
+
+html {
+    height: 100%;
 }
 
 img {
@@ -53,13 +57,30 @@ img {
     width: 400px;
 }
 
-.content {
+.img-div {
+
     text-align: center;
+}
+
+.content {
+    /* text-align: center; */
     margin-top: 35px;
 }
+
+
 
 .info {
 
 
     margin-top: 50px;
+
+
+}
+
+.summary {
+
+    text-align: justify;
+    color: #000000;
+
+
 }

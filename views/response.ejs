@@ -32,8 +32,9 @@
             <div class="col info ">
 
                 <h2 class="genre">Genre:-<%=genre%></h2>
-                <p>Rating:<%=rating%></p>
-                <P><%=summary%></P>
+                <p class="rating">Rating:<%=rating%></p>
+                <h3>Summary:-</h3>
+                <P class="summary"><%=summary%></P>
 
                 <form action="/response" method="post">
 
@@ -43,7 +44,9 @@
 
 
             </div>
-            <div class="col  img-fluid">
+            <div class="col img-fluid img-div">
+
+
 
                 <img src="<%=image%>" alt="">
 
