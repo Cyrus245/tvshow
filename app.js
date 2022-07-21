@@ -39,6 +39,8 @@ app.post("/", (req, res) => {
             const image = response.data[0].show.image.original;
             const rating = response.data[0].show.rating.average;
             const summary = response.data[0].show.summary;
+            const withoutTag = summary.replace(/(<([^>]+)>)/gi, "");
+
 
 
             // res.write(`<h1>Show Name:-${sName}</h1>`);
@@ -53,7 +55,7 @@ app.post("/", (req, res) => {
                 genre: genre,
                 image: image,
                 rating: rating,
-                summary: summary,
+                summary: withoutTag,
 
             }
 
