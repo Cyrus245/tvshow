@@ -4,6 +4,18 @@
     padding: 0;
 }
 
+.link {
+
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.link:hover {
+
+    color: white;
+}
+
 body {
 
 

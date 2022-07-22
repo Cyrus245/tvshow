@@ -40,6 +40,8 @@ app.post("/", (req, res) => {
             const rating = response.data[0].show.rating.average;
             const summary = response.data[0].show.summary;
             const withoutTag = summary.replace(/(<([^>]+)>)/gi, "");
+            const lang = response.data[0].show.language;
+            const nFlix = response.data[0].show.officialSite;
 
 
 
@@ -56,6 +58,8 @@ app.post("/", (req, res) => {
                 image: image,
                 rating: rating,
                 summary: withoutTag,
+                language: lang,
+                netFlix: nFlix,
 
             }
 
